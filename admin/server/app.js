@@ -22,3 +22,9 @@ server.listen(config.port, config.ip, function () {
 
 // Expose app
 exports = module.exports = app;
+
+var mongoose = require('mongoose');
+
+// mongoose.connect('mongodb://localhost/ciaf');
+
+mongoose.connect('mongodb://ciaf_dev:Password123@ds062807.mongolab.com:62807/ciaf_dev');

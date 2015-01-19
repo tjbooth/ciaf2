@@ -6,8 +6,7 @@ angular.module 'adminApp', [
   'ngSanitize',
   'ui.router',
   'ui.bootstrap',
-  'ui.grid',
-  'ngGrid'
+  'ui.grid'
 ]
 .config ($stateProvider, $urlRouterProvider, $locationProvider) ->
   $urlRouterProvider

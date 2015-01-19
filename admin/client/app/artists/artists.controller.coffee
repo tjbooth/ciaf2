@@ -1,9 +1,14 @@
 'use strict'
 
-angular.module 'adminApp'
-.controller 'ArtistsCtrl', ($scope) ->
-  $scope.message = 'Hello'
-  $scope.myData = [ { name: "Moroni", age: 50 },			
-					{ name: "Moroni2", age: 52 },			
-					{ name: "Michelle", age: 33 } ]
-  $scope.gridOptions = { data: 'myData' }
+app = angular.module 'adminApp'
+
+d2 = [ { "title": "Hello World", "author": "Ben Hollis", "body": "This is an example." } ]
+
+app.controller 'ArtistsCtrl', ['$scope', 'ActsGridFactory', ($scope, ActsGridFactory) ->
+  ActsGridFactory.getAll().then (acts) ->
+  	$scope.myData = acts
+  
+  angular.extend $scope,
+  	myData: []
+  	gridOptions: { data: 'myData' }
+]

@@ -77,19 +77,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/tom/Documents/development/ciaf",
-		"/Users/tom/Documents/development/ciaf/admin",
-		"/Users/tom/Documents/development/ciaf/admin/.tmp/app",
-		"/Users/tom/Documents/development/ciaf/admin/client/app",
-		"/Users/tom/Documents/development/ciaf/admin/client/app/artists",
-		"/Users/tom/Documents/development/ciaf/admin/client/app/main",
-		"/Users/tom/Documents/development/ciaf/admin/client/assets",
-		"/Users/tom/Documents/development/ciaf/admin/client/assets/images",
-		"/Users/tom/Documents/development/ciaf/admin/server/api",
-		"/Users/tom/Documents/development/ciaf/admin/server/api/thing",
-		"/Users/tom/Documents/development/ciaf/admin/server/config",
-		"/Users/tom/Documents/development/ciaf/admin/server/config/environment",
-		"/Users/tom/Documents/development/ciaf/admin/server/views"
+		"/Users/tom/Documents/development/ciaf/admin"
 	],
 	"file_history":
 	[
