@@ -1,0 +1,10 @@
+
+*.scssc
+
+*.scssc
+
+client/bower_components/*
+node_modules/*
+dist/*
+
+.tmp/*
